@@ -248,3 +248,4 @@ with col4:
     ax8.set_ylabel("Average BMI")
     st.pyplot(fig8)
 
+
