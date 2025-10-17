@@ -8,7 +8,7 @@ import numpy as np
 # ---------------------------
 # 1. Gemini Client
 # ---------------------------
-client = genai.Client(api_key="AIzaSyBNuE1WsAeEKbYne0apxuZnVUCvM2bW7BY")  
+client = genai.Client(api_key="gemini_api_key")  
 
 # ---------------------------
 # 2. Load dataset
@@ -247,3 +247,4 @@ with col4:
     ax8.set_xlabel("Age Group")
     ax8.set_ylabel("Average BMI")
     st.pyplot(fig8)
+
